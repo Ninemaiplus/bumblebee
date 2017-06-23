@@ -1,0 +1,26 @@
+{
+  "name": "bumblebee",
+  "version": "0.0.1",
+  "description": "This is application for Auto Network Troubleshooting.",
+  "main": "bumblebee.js",
+  "dependencies": {
+    "telnet-client": "^0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "bumblebee.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninemaiplus/bumblebee.git"
+  },
+  "keywords": [
+    "bumblebee"
+  ],
+  "author": "Ninemai",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ninemaiplus/bumblebee/issues"
+  },
+  "homepage": "https://github.com/Ninemaiplus/bumblebee#readme"
+}
