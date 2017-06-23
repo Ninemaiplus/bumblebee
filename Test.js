@@ -4,15 +4,19 @@ var telnet = require('telnet-client')
 var connection = new telnet()
 
 var params = {
-  host: '127.0.0.1',
+  host: '10.10.1.41',
   port: 23,
-  shellPrompt: '/ # ',
+  shellPrompt: '/<R207\.TEMP38_AMAZON>/',
+  loginPrompt: 'Username:',
+  passwordPrompt: 'Password:',
+  username: 'A!sbn',
+  password: '@forward',
   timeout: 1500,
   // removeEcho: 4
 }
 
 connection.on('ready', function(prompt) {
-  connection.exec(cmd, function(err, response) {
+  connection.send('show ver', function(err, response) {
     console.log(response)
   })
 })
