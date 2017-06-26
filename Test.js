@@ -31,3 +31,5 @@ connection.on('close', function() {
 })
 
 connection.connect(params)
+
+console.log('Hello Namkhing')
