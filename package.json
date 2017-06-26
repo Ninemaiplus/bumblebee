@@ -4,6 +4,7 @@
   "description": "This is application for Auto Network Troubleshooting.",
   "main": "bumblebee.js",
   "dependencies": {
+    "node-run-cmd": "^1.0.1",
     "telnet-client": "^0.15.0"
   },
   "devDependencies": {},

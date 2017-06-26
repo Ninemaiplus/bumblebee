@@ -1,7 +1,8 @@
-console.log('Hello Node.js');
+console.log('Hello Node.js\n');
 
 function sayHi(){
-	return 'Hi!';
+	return 'Hi!\n';
 }
 
 console.log(sayHi());
+
